@@ -1,0 +1,33 @@
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.book-card {
+    border: 1px solid #a94848;
+    border-radius: 3px;
+    padding: 15px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.book-title {
+    color: red;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.review-section {
+    margin-top: 10px;
+}
+
+textarea {
+    width: 100%;
+    margin-bottom: 10px;
+}
+.review-section{
+    color:green;
+    text-align: left;
+}

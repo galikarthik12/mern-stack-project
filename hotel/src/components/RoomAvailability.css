@@ -1,0 +1,43 @@
+/* RoomAvailability.css */
+
+.room-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.room-card img {
+  height: 200px;
+  object-fit: cover;
+  width: 100%;
+}
+
+.room-card .card-body {
+  text-align: center;
+}
+
+.room-card .btn {
+  font-weight: bold;
+  padding: 10px 0;
+}
+
+.room-card .card-title {
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.room-card .card-text {
+  font-size: 1rem;
+  margin-bottom: 15px;
+}
+
+@media (max-width: 768px) {
+  .room-card .card-title {
+    font-size: 1rem;
+  }
+
+  .room-card .card-text {
+    font-size: 0.9rem;
+  }
+}

@@ -1,0 +1,60 @@
+/* Set the background image for the entire page */
+.home-page-container {
+    min-height: 100vh; /* Full viewport height */
+    display: flex; /* Use flexbox for centering */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    background-image: url('https://www.hilton.com/im/en/POMSMHI/8806587/king-room-bedroom.jpg?impolicy=crop&cw=5000&ch=2812&gravity=NorthWest&xposition=0&yposition=0&rw=1200&rh=675'); /* Path to your background image */
+    background-size: cover; /* Cover the full page */
+    background-position: center center; /* Center the background image */
+    background-repeat: no-repeat; /* Prevent repeating the image */
+    background-attachment: fixed; /* Fix the background when scrolling */
+    color: white; /* Set text color to white for contrast */
+    text-align: center; /* Center text */
+}
+
+/* Ensure the content inside the container is properly centered */
+.home-page-container .content {
+    padding: 2rem;
+    border-radius: 8px;
+    display: flex; /* Use flexbox to align the items inline */
+    justify-content: center; /* Center the content horizontally */
+    align-items: center; /* Center the content vertically */
+    flex-wrap: wrap; /* Allow wrapping if needed */
+}
+
+/* Heading style */
+.home-page-container h1 {
+    font-size: 2.5rem; /* Adjust size */
+    display: inline-block;
+    margin-right: 10px; /* Add space to the right */
+}
+
+/* Paragraph style */
+.home-page-container p {
+    font-size: 1.2rem; /* Adjust font size */
+}
+
+/* Button style */
+.home-page-container .btn {
+    font-size: 1.1rem;
+    padding: 0.75rem 1.5rem;
+    border-radius: 50px;
+    transition: background-color 0.3s ease;
+}
+
+/* Hover state for the button */
+.home-page-container .btn:hover {
+    background-color: #0056b3; /* Darker blue when hovered */
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 576px) {
+    .home-page-container h1 {
+        font-size: 2rem; /* Reduce font size on small screens */
+    }
+
+    .home-page-container p {
+        font-size: 1rem; /* Reduce font size of the paragraph */
+    }
+}

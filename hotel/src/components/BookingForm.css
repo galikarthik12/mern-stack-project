@@ -1,0 +1,92 @@
+/* Set the background image for the booking form container */
+.booking-form-container {
+    min-height: 100vh; /* Ensure the container takes at least the full height of the viewport */
+    display: flex; /* Use Flexbox to center the form */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    background-image: url('https://www.glenmarie.com.my/wp-content/uploads/2024/02/JUNIOR-FAMILY-SUITE-WEBSITE-PHOTO-1354X866-1.png'); /* Path to your background image */
+    background-size: cover; /* Ensure the image covers the entire viewport */
+    background-position: center center; /* Center the background image */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    background-attachment: fixed; /* This keeps the image fixed during scrolling */
+  }
+  
+  /* Style the form container */
+  .booking-form-container form {
+    background-color: rgba(88, 137, 157, 0.8); /* Semi-transparent white background */
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px; /* Form will not exceed 500px in width */
+  }
+  
+  /* Heading style */
+  .booking-form-container h2 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    color: #0a0a0a;
+  }
+  
+  /* Form label styles */
+  .booking-form-container label {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  /* Input, select, and button styling */
+  .booking-form-container input,
+  .booking-form-container select,
+  .booking-form-container button {
+    width: 100%;
+    padding: 0.75rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+  }
+  
+  .booking-form-container input:focus, 
+  .booking-form-container select:focus, 
+  .booking-form-container button:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  }
+  
+  /* Button style */
+  .booking-form-container button {
+    background-color: #007bff;
+    color: white;
+    font-size: 1.1rem;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .booking-form-container button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Estimated rate style */
+  .booking-form-container .mt-3 {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #333;
+  }
+  
+  .booking-form-container .mt-3 strong {
+    color: #ff0033;
+  }
+  
+  /* Responsive tweaks */
+  @media (max-width: 576px) {
+    .booking-form-container {
+      padding: 1rem;
+    }
+  }
+  

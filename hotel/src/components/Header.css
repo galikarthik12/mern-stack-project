@@ -1,0 +1,39 @@
+/* Header.css */
+
+/* Make the Navbar background white with a soft shadow */
+.navbar {
+    background-color: #f8f9fa !important;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Styling for Navbar Links */
+  .nav-link {
+    font-weight: 500;
+    font-weight: bold;
+    color: black !important;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-link:hover {
+    color: #0056b3 !important;
+  }
+  
+  /* Align Navbar items to the right */
+  .navbar-nav {
+    margin-left: auto;
+  }
+  
+  /* For small screens */
+  @media (max-width: 767px) {
+    .navbar-nav {
+      text-align: center;
+    }
+    .navbar-brand {
+      text-align: center;
+      margin-left: 0;
+    }
+  }
+  #lin:hover{
+    background-color: #e1e5ea;
+    border-radius: 5px;
+  }
